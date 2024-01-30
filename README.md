@@ -38,7 +38,7 @@ INFO     export KUBECONFIG=/tmp/agent/auth/kubeconfig
 3. Connect to your new cluster using the credentials stored in the asset folder.
 
 ``` bash
-$ export KUBECONFIG=/tmp/agent/auth/kubeconfig
+$ export KUBECONFIG=/tmp/mini-agent/auth/kubeconfig
 $ kubectl get nodes
 NAME       STATUS   ROLES                         AGE   VERSION
 master-0   Ready    control-plane,master,worker   36m   v1.28.6+0fb4726
